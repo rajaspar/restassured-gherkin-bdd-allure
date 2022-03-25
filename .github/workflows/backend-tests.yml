@@ -9,7 +9,7 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: "0 7 * * 1,3,5"
+    - cron: "0 10 * * 1,3"
 
 jobs:
   regression:
@@ -24,7 +24,7 @@ jobs:
           java-version: '11'
 
       - name: Build with Maven
-        run: mvn -B clean test site -DsuiteFile=api_regression.xml --settings settings.xml
+        run: mvn clean test -D"cucumber.filter.tags=@Customer and not @Creation"
 
       - name: Get Allure history
         uses: actions/checkout@v2
