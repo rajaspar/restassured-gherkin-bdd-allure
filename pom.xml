@@ -16,6 +16,7 @@
         <rest.assured.version>4.5.1</rest.assured.version>
         <allure.version>2.17.3</allure.version>
         <cucumber.version>7.2.3</cucumber.version>
+        <junit.version></junit.version>
         <suiteFile/>
         <envConfig/>
     </properties>
@@ -125,13 +126,32 @@
             <version>${cucumber.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit-platform-engine</artifactId>
+            <version>${cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
 
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-suite</artifactId>
+            <version>1.8.2</version>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-console</artifactId>
+            <version>1.8.2</version>
+            <scope>test</scope>
+        </dependency>
+
 
         <dependency>
             <groupId>io.qameta.allure</groupId>
