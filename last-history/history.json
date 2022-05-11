@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "9f5427ff51ddf188",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/3//#testresult/9f5427ff51ddf188",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652264789871,
+        "stop" : 1652264794557,
+        "duration" : 4686
+      }
+    }, {
       "uid" : "1bec929fbf46ba63",
       "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/2//#testresult/1bec929fbf46ba63",
       "status" : "passed",
@@ -69,11 +78,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "d52ff5b834e4d8fb",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/3//#testresult/d52ff5b834e4d8fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652264796472,
+        "stop" : 1652264797515,
+        "duration" : 1043
+      }
+    }, {
       "uid" : "c75b005c5a2d73d4",
       "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/2//#testresult/c75b005c5a2d73d4",
       "status" : "passed",
@@ -134,11 +152,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "abaa3b2db3af84af",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/3//#testresult/abaa3b2db3af84af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652264794651,
+        "stop" : 1652264796434,
+        "duration" : 1783
+      }
+    }, {
       "uid" : "6ca213d73a092cb2",
       "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/2//#testresult/6ca213d73a092cb2",
       "status" : "passed",
