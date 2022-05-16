@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "b8b08680178838a8",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/4//#testresult/b8b08680178838a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652696794131,
+        "stop" : 1652696799980,
+        "duration" : 5849
+      }
+    }, {
       "uid" : "9f5427ff51ddf188",
       "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/3//#testresult/9f5427ff51ddf188",
       "status" : "passed",
@@ -78,11 +87,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "5c4703bf8f5eedf7",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/4//#testresult/5c4703bf8f5eedf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652696802950,
+        "stop" : 1652696804624,
+        "duration" : 1674
+      }
+    }, {
       "uid" : "d52ff5b834e4d8fb",
       "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/3//#testresult/d52ff5b834e4d8fb",
       "status" : "passed",
@@ -152,11 +170,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "285952a90457c0a4",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/4//#testresult/285952a90457c0a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652696800110,
+        "stop" : 1652696802934,
+        "duration" : 2824
+      }
+    }, {
       "uid" : "abaa3b2db3af84af",
       "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/3//#testresult/abaa3b2db3af84af",
       "status" : "passed",

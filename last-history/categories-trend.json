@@ -1,4 +1,9 @@
 [ {
+  "buildOrder" : 4,
+  "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/4/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 3,
   "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/3/",
   "reportName" : "Allure Report with history",
