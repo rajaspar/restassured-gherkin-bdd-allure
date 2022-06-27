@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 19,
+      "passed" : 20,
       "unknown" : 0,
-      "total" : 19
+      "total" : 20
     },
     "items" : [ {
+      "uid" : "d7e697be3749b09a",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/16//#testresult/d7e697be3749b09a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656325585766,
+        "stop" : 1656325591955,
+        "duration" : 6189
+      }
+    }, {
       "uid" : "edfad80480ad26f7",
       "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/15//#testresult/edfad80480ad26f7",
       "status" : "passed",
@@ -186,11 +195,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 19,
+      "passed" : 20,
       "unknown" : 0,
-      "total" : 19
+      "total" : 20
     },
     "items" : [ {
+      "uid" : "746571b8c1293a5d",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/16//#testresult/746571b8c1293a5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656325595113,
+        "stop" : 1656325596896,
+        "duration" : 1783
+      }
+    }, {
       "uid" : "814f49fada506a5",
       "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/15//#testresult/814f49fada506a5",
       "status" : "passed",
@@ -368,11 +386,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 19,
+      "passed" : 20,
       "unknown" : 0,
-      "total" : 19
+      "total" : 20
     },
     "items" : [ {
+      "uid" : "755425eaea599dae",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/16//#testresult/755425eaea599dae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656325592091,
+        "stop" : 1656325595095,
+        "duration" : 3004
+      }
+    }, {
       "uid" : "369d310252449659",
       "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/15//#testresult/369d310252449659",
       "status" : "passed",

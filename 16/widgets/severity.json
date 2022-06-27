@@ -1,0 +1,31 @@
+[ {
+  "uid" : "755425eaea599dae",
+  "name" : "Verify Customer data modification",
+  "time" : {
+    "start" : 1656325592091,
+    "stop" : 1656325595095,
+    "duration" : 3004
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "746571b8c1293a5d",
+  "name" : "Delete Customer data",
+  "time" : {
+    "start" : 1656325595113,
+    "stop" : 1656325596896,
+    "duration" : 1783
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d7e697be3749b09a",
+  "name" : "Verify Customer data retrieval",
+  "time" : {
+    "start" : 1656325585766,
+    "stop" : 1656325591955,
+    "duration" : 6189
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

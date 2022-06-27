@@ -1,4 +1,84 @@
 [ {
+  "buildOrder" : 16,
+  "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/16/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 15,
+  "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/15/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 14,
+  "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/14/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/13/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 12,
+  "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/12/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/11/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/10/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/9/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/8/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/7/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 6,
   "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/6/",
   "reportName" : "Allure Report with history",

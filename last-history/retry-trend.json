@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 16,
+  "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/16/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 15,
   "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/15/",
   "reportName" : "Allure Report with history",
