@@ -1,0 +1,52 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Connection timed out",
+      "children" : [ {
+        "name" : "Verify Customer data retrieval",
+        "uid" : "6ecc10120695ae6d",
+        "parentUid" : "82c40724689f63d1bc6289490584b70c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1664792971283,
+          "stop" : 1664793104078,
+          "duration" : 132795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "first name", "second name" ]
+      }, {
+        "name" : "Verify Customer data modification",
+        "uid" : "5dab5e9f6aa6fd72",
+        "parentUid" : "82c40724689f63d1bc6289490584b70c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1664793104156,
+          "stop" : 1664793235126,
+          "duration" : 130970
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete Customer data",
+        "uid" : "90af0c88896bd41d",
+        "parentUid" : "82c40724689f63d1bc6289490584b70c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1664793235144,
+          "stop" : 1664793366195,
+          "duration" : 131051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82c40724689f63d1bc6289490584b70c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
