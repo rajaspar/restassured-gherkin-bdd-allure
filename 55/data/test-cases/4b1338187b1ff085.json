@@ -1,0 +1,348 @@
+{
+  "uid" : "4b1338187b1ff085",
+  "name" : "Delete Customer data",
+  "fullName" : "Validating Customer APIs: Delete Customer data",
+  "historyId" : "b12c3e178541cb66914ed2b8a15d7d20",
+  "time" : {
+    "start" : 1667816793183,
+    "stop" : 1667816794120,
+    "duration" : 937
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User calls createCustomer with \"firstName\" and \"lastName\"",
+      "time" : {
+        "start" : 1667816793184,
+        "stop" : 1667816793507,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  User calls deleteCustomerDetails",
+      "time" : {
+        "start" : 1667816793507,
+        "stop" : 1667816793812,
+        "duration" : 305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the API response is \"success\" with status code \"200\"",
+      "time" : {
+        "start" : 1667816793812,
+        "stop" : 1667816793814,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  User calls getCustomerDetails",
+      "time" : {
+        "start" : 1667816793814,
+        "stop" : 1667816794116,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the API response is \"failure\" with status code \"404\"",
+      "time" : {
+        "start" : 1667816794116,
+        "stop" : 1667816794119,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Customer"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "Deletion"
+  }, {
+    "name" : "host",
+    "value" : "fv-az399-159"
+  }, {
+    "name" : "thread",
+    "value" : "2298@fv-az399-159.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Validating Customer APIs"
+  }, {
+    "name" : "story",
+    "value" : "Delete Customer data"
+  }, {
+    "name" : "suite",
+    "value" : "Validating Customer APIs"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete Customer data"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/restassured-gherkin-bdd-allure/restassured-gherkin-bdd-allure/src/test/java/com/template/project/features/Customer.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.com.template.project.features.Customer_feature.Validating Customer APIs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 58,
+        "unknown" : 0,
+        "total" : 59
+      },
+      "items" : [ {
+        "uid" : "47354bd615f043b6",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/54//#testresult/47354bd615f043b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667384818446,
+          "stop" : 1667384819398,
+          "duration" : 952
+        }
+      }, {
+        "uid" : "a3c24f5407598e92",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/53//#testresult/a3c24f5407598e92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667212048469,
+          "stop" : 1667212050041,
+          "duration" : 1572
+        }
+      }, {
+        "uid" : "15999c596de0c7e1",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/52//#testresult/15999c596de0c7e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666779988029,
+          "stop" : 1666779989271,
+          "duration" : 1242
+        }
+      }, {
+        "uid" : "b6d840f0c065d8bf",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/51//#testresult/b6d840f0c065d8bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666607634613,
+          "stop" : 1666607635596,
+          "duration" : 983
+        }
+      }, {
+        "uid" : "7faf61b8282d9c2c",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/50//#testresult/7faf61b8282d9c2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666175696066,
+          "stop" : 1666175697671,
+          "duration" : 1605
+        }
+      }, {
+        "uid" : "ac481e0cf5d29070",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/49//#testresult/ac481e0cf5d29070",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666002794717,
+          "stop" : 1666002796302,
+          "duration" : 1585
+        }
+      }, {
+        "uid" : "dac9f2f95248d0f",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/48//#testresult/dac9f2f95248d0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1665570662735,
+          "stop" : 1665570663934,
+          "duration" : 1199
+        }
+      }, {
+        "uid" : "fa3bf7e92d8d3a7a",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/47//#testresult/fa3bf7e92d8d3a7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1665397721914,
+          "stop" : 1665397723209,
+          "duration" : 1295
+        }
+      }, {
+        "uid" : "5a30ada09c445a13",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/46//#testresult/5a30ada09c445a13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664965818065,
+          "stop" : 1664965819053,
+          "duration" : 988
+        }
+      }, {
+        "uid" : "90af0c88896bd41d",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/45//#testresult/90af0c88896bd41d",
+        "status" : "broken",
+        "statusDetails" : "Connection timed out",
+        "time" : {
+          "start" : 1664793235144,
+          "stop" : 1664793366195,
+          "duration" : 131051
+        }
+      }, {
+        "uid" : "b08691181201c40f",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/44//#testresult/b08691181201c40f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664361011460,
+          "stop" : 1664361012734,
+          "duration" : 1274
+        }
+      }, {
+        "uid" : "a5c8fc993b0886e9",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/43//#testresult/a5c8fc993b0886e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664188093857,
+          "stop" : 1664188094902,
+          "duration" : 1045
+        }
+      }, {
+        "uid" : "aa8237a27f6fdb4f",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/42//#testresult/aa8237a27f6fdb4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663756077999,
+          "stop" : 1663756079605,
+          "duration" : 1606
+        }
+      }, {
+        "uid" : "4e4495c2094bc228",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/41//#testresult/4e4495c2094bc228",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663583357310,
+          "stop" : 1663583358919,
+          "duration" : 1609
+        }
+      }, {
+        "uid" : "2749469e900a3d3d",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/40//#testresult/2749469e900a3d3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663151242305,
+          "stop" : 1663151243309,
+          "duration" : 1004
+        }
+      }, {
+        "uid" : "3ebdeccc17efe58b",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/39//#testresult/3ebdeccc17efe58b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662978481926,
+          "stop" : 1662978483222,
+          "duration" : 1296
+        }
+      }, {
+        "uid" : "bec1f01a538eb900",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/38//#testresult/bec1f01a538eb900",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662546451214,
+          "stop" : 1662546452830,
+          "duration" : 1616
+        }
+      }, {
+        "uid" : "183ce5ac0283319d",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/37//#testresult/183ce5ac0283319d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662373503933,
+          "stop" : 1662373504886,
+          "duration" : 953
+        }
+      }, {
+        "uid" : "4ed7e4365eeaf962",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/36//#testresult/4ed7e4365eeaf962",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661941521669,
+          "stop" : 1661941522673,
+          "duration" : 1004
+        }
+      }, {
+        "uid" : "bdf4740fccbb6a1a",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/35//#testresult/bdf4740fccbb6a1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661768763126,
+          "stop" : 1661768764129,
+          "duration" : 1003
+        }
+      } ]
+    },
+    "tags" : [ "Customer", "Deletion" ]
+  },
+  "source" : "4b1338187b1ff085.json",
+  "parameterValues" : [ ]
+}
