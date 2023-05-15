@@ -6,13 +6,13 @@
       "name" : "Verify Customer data retrieval",
       "children" : [ {
         "name" : "Verify Customer data retrieval",
-        "uid" : "2f4edc32d8483d54",
+        "uid" : "6e965166d26c9b00",
         "parentUid" : "9ca3adc62fd42ba78519b466467843d2",
         "status" : "passed",
         "time" : {
-          "start" : 1681121880607,
-          "stop" : 1681121884668,
-          "duration" : 4061
+          "start" : 1684145911630,
+          "stop" : 1684145916939,
+          "duration" : 5309
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
       "name" : "Verify Customer data modification",
       "children" : [ {
         "name" : "Verify Customer data modification",
-        "uid" : "c848a949c3ab4cc",
+        "uid" : "419e02a2cc5af02c",
         "parentUid" : "149688bba37faa133ab921052ea701ec",
         "status" : "passed",
         "time" : {
-          "start" : 1681121884731,
-          "stop" : 1681121886302,
-          "duration" : 1571
+          "start" : 1684145916997,
+          "stop" : 1684145919079,
+          "duration" : 2082
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,13 +40,13 @@
       "name" : "Delete Customer data",
       "children" : [ {
         "name" : "Delete Customer data",
-        "uid" : "8f3d7976d60c6160",
+        "uid" : "5d1a1525efa8b0be",
         "parentUid" : "d253df22a05f9741747fceb0d6c95e77",
         "status" : "passed",
         "time" : {
-          "start" : 1681121886325,
-          "stop" : 1681121887224,
-          "duration" : 899
+          "start" : 1684145919104,
+          "stop" : 1684145920322,
+          "duration" : 1218
         },
         "flaky" : false,
         "newFailed" : false,
