@@ -4,11 +4,101 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 106,
+      "passed" : 116,
       "unknown" : 0,
-      "total" : 107
+      "total" : 117
     },
     "items" : [ {
+      "uid" : "59daa895e102abb8",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/113//#testresult/59daa895e102abb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685355495196,
+        "stop" : 1685355500705,
+        "duration" : 5509
+      }
+    }, {
+      "uid" : "6b19013ac66a4fbe",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/112//#testresult/6b19013ac66a4fbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684923482081,
+        "stop" : 1684923487925,
+        "duration" : 5844
+      }
+    }, {
+      "uid" : "21b89d0df9241189",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/111//#testresult/21b89d0df9241189",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684750698872,
+        "stop" : 1684750703650,
+        "duration" : 4778
+      }
+    }, {
+      "uid" : "1712e3ecb5b3bd58",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/110//#testresult/1712e3ecb5b3bd58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684318667782,
+        "stop" : 1684318672814,
+        "duration" : 5032
+      }
+    }, {
+      "uid" : "6e965166d26c9b00",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/109//#testresult/6e965166d26c9b00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684145911630,
+        "stop" : 1684145916939,
+        "duration" : 5309
+      }
+    }, {
+      "uid" : "633488d10f72cba3",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/108//#testresult/633488d10f72cba3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683713905406,
+        "stop" : 1683713912316,
+        "duration" : 6910
+      }
+    }, {
+      "uid" : "a1875f4b8e6f02c",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/107//#testresult/a1875f4b8e6f02c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683541090473,
+        "stop" : 1683541094640,
+        "duration" : 4167
+      }
+    }, {
+      "uid" : "82131d9cf8043f30",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/106//#testresult/82131d9cf8043f30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683109072334,
+        "stop" : 1683109078196,
+        "duration" : 5862
+      }
+    }, {
+      "uid" : "9c245a5470b40723",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/105//#testresult/9c245a5470b40723",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682936308811,
+        "stop" : 1682936313177,
+        "duration" : 4366
+      }
+    }, {
+      "uid" : "397eca339438ce74",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/104//#testresult/397eca339438ce74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682504314641,
+        "stop" : 1682504319144,
+        "duration" : 4503
+      }
+    }, {
       "uid" : "67d7b8885d85a36a",
       "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/103//#testresult/67d7b8885d85a36a",
       "status" : "passed",
@@ -98,96 +188,6 @@
         "stop" : 1679480358257,
         "duration" : 5774
       }
-    }, {
-      "uid" : "f27ed6fb79a1bdee",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/93//#testresult/f27ed6fb79a1bdee",
-      "status" : "passed",
-      "time" : {
-        "start" : 1679307648279,
-        "stop" : 1679307652355,
-        "duration" : 4076
-      }
-    }, {
-      "uid" : "574ef80499099471",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/92//#testresult/574ef80499099471",
-      "status" : "passed",
-      "time" : {
-        "start" : 1678875632673,
-        "stop" : 1678875637626,
-        "duration" : 4953
-      }
-    }, {
-      "uid" : "bc797743ceec0ca5",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/91//#testresult/bc797743ceec0ca5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1678702853416,
-        "stop" : 1678702859055,
-        "duration" : 5639
-      }
-    }, {
-      "uid" : "a993b5885fbdcf32",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/90//#testresult/a993b5885fbdcf32",
-      "status" : "passed",
-      "time" : {
-        "start" : 1678270899990,
-        "stop" : 1678270904799,
-        "duration" : 4809
-      }
-    }, {
-      "uid" : "4fd8502b0327c38e",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/89//#testresult/4fd8502b0327c38e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1678098102875,
-        "stop" : 1678098107924,
-        "duration" : 5049
-      }
-    }, {
-      "uid" : "ff6a99ee8f0a0976",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/88//#testresult/ff6a99ee8f0a0976",
-      "status" : "passed",
-      "time" : {
-        "start" : 1677666115962,
-        "stop" : 1677666122336,
-        "duration" : 6374
-      }
-    }, {
-      "uid" : "2f977813712bc605",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/87//#testresult/2f977813712bc605",
-      "status" : "passed",
-      "time" : {
-        "start" : 1677493328731,
-        "stop" : 1677493333528,
-        "duration" : 4797
-      }
-    }, {
-      "uid" : "80e0e7d04d1ddb80",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/86//#testresult/80e0e7d04d1ddb80",
-      "status" : "passed",
-      "time" : {
-        "start" : 1677061276904,
-        "stop" : 1677061281901,
-        "duration" : 4997
-      }
-    }, {
-      "uid" : "e4020decab24ab9d",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/85//#testresult/e4020decab24ab9d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1676888548896,
-        "stop" : 1676888553832,
-        "duration" : 4936
-      }
-    }, {
-      "uid" : "d331bf8697e8c144",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/84//#testresult/d331bf8697e8c144",
-      "status" : "passed",
-      "time" : {
-        "start" : 1676456464632,
-        "stop" : 1676456469531,
-        "duration" : 4899
-      }
     } ]
   },
   "b12c3e178541cb66914ed2b8a15d7d20" : {
@@ -195,11 +195,101 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 106,
+      "passed" : 116,
       "unknown" : 0,
-      "total" : 107
+      "total" : 117
     },
     "items" : [ {
+      "uid" : "fcd5ffeb1c616a4a",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/113//#testresult/fcd5ffeb1c616a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685355502880,
+        "stop" : 1685355504125,
+        "duration" : 1245
+      }
+    }, {
+      "uid" : "447a7edf4b9857cb",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/112//#testresult/447a7edf4b9857cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684923490565,
+        "stop" : 1684923492062,
+        "duration" : 1497
+      }
+    }, {
+      "uid" : "fce456b389867b80",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/111//#testresult/fce456b389867b80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684750705890,
+        "stop" : 1684750707131,
+        "duration" : 1241
+      }
+    }, {
+      "uid" : "b3ab8e521a39aa2f",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/110//#testresult/b3ab8e521a39aa2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684318675019,
+        "stop" : 1684318676245,
+        "duration" : 1226
+      }
+    }, {
+      "uid" : "5d1a1525efa8b0be",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/109//#testresult/5d1a1525efa8b0be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684145919104,
+        "stop" : 1684145920322,
+        "duration" : 1218
+      }
+    }, {
+      "uid" : "4dabd4d762f2f052",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/108//#testresult/4dabd4d762f2f052",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683713915105,
+        "stop" : 1683713916672,
+        "duration" : 1567
+      }
+    }, {
+      "uid" : "82cc9bff5cdffd4e",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/107//#testresult/82cc9bff5cdffd4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683541096744,
+        "stop" : 1683541097955,
+        "duration" : 1211
+      }
+    }, {
+      "uid" : "3265f3496ed6ddeb",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/106//#testresult/3265f3496ed6ddeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683109080337,
+        "stop" : 1683109081574,
+        "duration" : 1237
+      }
+    }, {
+      "uid" : "810b347b514c265a",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/105//#testresult/810b347b514c265a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682936314912,
+        "stop" : 1682936315854,
+        "duration" : 942
+      }
+    }, {
+      "uid" : "f803f8159dda9891",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/104//#testresult/f803f8159dda9891",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682504321283,
+        "stop" : 1682504322480,
+        "duration" : 1197
+      }
+    }, {
       "uid" : "4cc9c7211c378413",
       "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/103//#testresult/4cc9c7211c378413",
       "status" : "passed",
@@ -289,96 +379,6 @@
         "stop" : 1679480362489,
         "duration" : 1547
       }
-    }, {
-      "uid" : "8d6713fa4987a952",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/93//#testresult/8d6713fa4987a952",
-      "status" : "passed",
-      "time" : {
-        "start" : 1679307653999,
-        "stop" : 1679307654915,
-        "duration" : 916
-      }
-    }, {
-      "uid" : "fc3a8973118e6745",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/92//#testresult/fc3a8973118e6745",
-      "status" : "passed",
-      "time" : {
-        "start" : 1678875639331,
-        "stop" : 1678875640277,
-        "duration" : 946
-      }
-    }, {
-      "uid" : "6e357cfbf40af1b6",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/91//#testresult/6e357cfbf40af1b6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1678702861316,
-        "stop" : 1678702862568,
-        "duration" : 1252
-      }
-    }, {
-      "uid" : "d44f8d1df1801bda",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/90//#testresult/d44f8d1df1801bda",
-      "status" : "passed",
-      "time" : {
-        "start" : 1678270907170,
-        "stop" : 1678270908533,
-        "duration" : 1363
-      }
-    }, {
-      "uid" : "f7e15dcf3151ef0",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/89//#testresult/f7e15dcf3151ef0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1678098110109,
-        "stop" : 1678098111331,
-        "duration" : 1222
-      }
-    }, {
-      "uid" : "17f32a74d2dae3b0",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/88//#testresult/17f32a74d2dae3b0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1677666125085,
-        "stop" : 1677666126652,
-        "duration" : 1567
-      }
-    }, {
-      "uid" : "f204f971230e1259",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/87//#testresult/f204f971230e1259",
-      "status" : "passed",
-      "time" : {
-        "start" : 1677493335664,
-        "stop" : 1677493336889,
-        "duration" : 1225
-      }
-    }, {
-      "uid" : "c785895ea821a407",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/86//#testresult/c785895ea821a407",
-      "status" : "passed",
-      "time" : {
-        "start" : 1677061284271,
-        "stop" : 1677061285668,
-        "duration" : 1397
-      }
-    }, {
-      "uid" : "1f1b8280c5551496",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/85//#testresult/1f1b8280c5551496",
-      "status" : "passed",
-      "time" : {
-        "start" : 1676888556333,
-        "stop" : 1676888557719,
-        "duration" : 1386
-      }
-    }, {
-      "uid" : "116a2c28c0b490ca",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/84//#testresult/116a2c28c0b490ca",
-      "status" : "passed",
-      "time" : {
-        "start" : 1676456471177,
-        "stop" : 1676456472083,
-        "duration" : 906
-      }
     } ]
   },
   "9f1a4badcfa7319c5df848d848b9f4bc" : {
@@ -386,11 +386,101 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 106,
+      "passed" : 116,
       "unknown" : 0,
-      "total" : 107
+      "total" : 117
     },
     "items" : [ {
+      "uid" : "d14c789eb6096471",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/113//#testresult/d14c789eb6096471",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685355500770,
+        "stop" : 1685355502866,
+        "duration" : 2096
+      }
+    }, {
+      "uid" : "99204e7f16dd7ec7",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/112//#testresult/99204e7f16dd7ec7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684923488008,
+        "stop" : 1684923490549,
+        "duration" : 2541
+      }
+    }, {
+      "uid" : "6819cd69c189760",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/111//#testresult/6819cd69c189760",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684750703725,
+        "stop" : 1684750705866,
+        "duration" : 2141
+      }
+    }, {
+      "uid" : "7151c1f8a266135f",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/110//#testresult/7151c1f8a266135f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684318672898,
+        "stop" : 1684318674996,
+        "duration" : 2098
+      }
+    }, {
+      "uid" : "419e02a2cc5af02c",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/109//#testresult/419e02a2cc5af02c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684145916997,
+        "stop" : 1684145919079,
+        "duration" : 2082
+      }
+    }, {
+      "uid" : "e60c8866325176f1",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/108//#testresult/e60c8866325176f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683713912397,
+        "stop" : 1683713915076,
+        "duration" : 2679
+      }
+    }, {
+      "uid" : "457378c357aecd94",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/107//#testresult/457378c357aecd94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683541094702,
+        "stop" : 1683541096726,
+        "duration" : 2024
+      }
+    }, {
+      "uid" : "bb839b45c05688ad",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/106//#testresult/bb839b45c05688ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683109078258,
+        "stop" : 1683109080310,
+        "duration" : 2052
+      }
+    }, {
+      "uid" : "d9112a4ab08696fb",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/105//#testresult/d9112a4ab08696fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682936313247,
+        "stop" : 1682936314894,
+        "duration" : 1647
+      }
+    }, {
+      "uid" : "3e6b2af7c49d42dd",
+      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/104//#testresult/3e6b2af7c49d42dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682504319219,
+        "stop" : 1682504321259,
+        "duration" : 2040
+      }
+    }, {
       "uid" : "511e12bd4b1d82c4",
       "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/103//#testresult/511e12bd4b1d82c4",
       "status" : "passed",
@@ -479,96 +569,6 @@
         "start" : 1679480358330,
         "stop" : 1679480360920,
         "duration" : 2590
-      }
-    }, {
-      "uid" : "885cc5ab2ad52291",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/93//#testresult/885cc5ab2ad52291",
-      "status" : "passed",
-      "time" : {
-        "start" : 1679307652423,
-        "stop" : 1679307653983,
-        "duration" : 1560
-      }
-    }, {
-      "uid" : "974e1896f7cf931c",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/92//#testresult/974e1896f7cf931c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1678875637696,
-        "stop" : 1678875639320,
-        "duration" : 1624
-      }
-    }, {
-      "uid" : "586d7ff37922a036",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/91//#testresult/586d7ff37922a036",
-      "status" : "passed",
-      "time" : {
-        "start" : 1678702859128,
-        "stop" : 1678702861276,
-        "duration" : 2148
-      }
-    }, {
-      "uid" : "7a929b002fee6210",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/90//#testresult/7a929b002fee6210",
-      "status" : "passed",
-      "time" : {
-        "start" : 1678270904865,
-        "stop" : 1678270907153,
-        "duration" : 2288
-      }
-    }, {
-      "uid" : "bab2409c6810061f",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/89//#testresult/bab2409c6810061f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1678098108003,
-        "stop" : 1678098110095,
-        "duration" : 2092
-      }
-    }, {
-      "uid" : "60c82153c4806148",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/88//#testresult/60c82153c4806148",
-      "status" : "passed",
-      "time" : {
-        "start" : 1677666122408,
-        "stop" : 1677666125060,
-        "duration" : 2652
-      }
-    }, {
-      "uid" : "9e1d303430a15e53",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/87//#testresult/9e1d303430a15e53",
-      "status" : "passed",
-      "time" : {
-        "start" : 1677493333590,
-        "stop" : 1677493335641,
-        "duration" : 2051
-      }
-    }, {
-      "uid" : "2abd89b411041c2e",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/86//#testresult/2abd89b411041c2e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1677061281958,
-        "stop" : 1677061284251,
-        "duration" : 2293
-      }
-    }, {
-      "uid" : "df4c2e6a354dbf5c",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/85//#testresult/df4c2e6a354dbf5c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1676888553916,
-        "stop" : 1676888556305,
-        "duration" : 2389
-      }
-    }, {
-      "uid" : "8b4bca53f4aea7ac",
-      "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/84//#testresult/8b4bca53f4aea7ac",
-      "status" : "passed",
-      "time" : {
-        "start" : 1676456469592,
-        "stop" : 1676456471153,
-        "duration" : 1561
       }
     } ]
   }
