@@ -4,39 +4,39 @@
     "name" : "src.test.java.com.template.project.features.Customer_feature.Validating Customer APIs",
     "children" : [ {
       "name" : "Verify Customer data retrieval",
-      "uid" : "6e965166d26c9b00",
+      "uid" : "1fc7c4443d70365",
       "parentUid" : "0a172073f03b79b0a5907885444787a8",
       "status" : "passed",
       "time" : {
-        "start" : 1684145911630,
-        "stop" : 1684145916939,
-        "duration" : 5309
+        "start" : 1687169895714,
+        "stop" : 1687169900010,
+        "duration" : 4296
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "first name", "second name" ]
     }, {
       "name" : "Verify Customer data modification",
-      "uid" : "419e02a2cc5af02c",
+      "uid" : "76143db6565354ec",
       "parentUid" : "0a172073f03b79b0a5907885444787a8",
       "status" : "passed",
       "time" : {
-        "start" : 1684145916997,
-        "stop" : 1684145919079,
-        "duration" : 2082
+        "start" : 1687169900081,
+        "stop" : 1687169901711,
+        "duration" : 1630
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Delete Customer data",
-      "uid" : "5d1a1525efa8b0be",
+      "uid" : "ed09b328be6d4b78",
       "parentUid" : "0a172073f03b79b0a5907885444787a8",
       "status" : "passed",
       "time" : {
-        "start" : 1684145919104,
-        "stop" : 1684145920322,
-        "duration" : 1218
+        "start" : 1687169901733,
+        "stop" : 1687169902695,
+        "duration" : 962
       },
       "flaky" : false,
       "newFailed" : false,
