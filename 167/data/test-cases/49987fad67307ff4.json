@@ -1,0 +1,377 @@
+{
+  "uid" : "49987fad67307ff4",
+  "name" : "Delete Customer data",
+  "fullName" : "Validating Customer APIs: Delete Customer data",
+  "historyId" : "b12c3e178541cb66914ed2b8a15d7d20",
+  "time" : {
+    "start" : 1701685170071,
+    "stop" : 1701685170446,
+    "duration" : 375
+  },
+  "status" : "failed",
+  "statusMessage" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+  "statusTrace" : "java.lang.AssertionError: 1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\n\tat io.restassured.internal.ResponseSpecificationImpl.contentType(ResponseSpecificationImpl.groovy:427)\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.contentType(ValidatableResponseOptionsImpl.java:220)\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$contentType(ValidatableResponseImpl.groovy)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\n\tat io.restassured.internal.ValidatableResponseImpl.contentType(ValidatableResponseImpl.groovy:278)\n\tat io.restassured.internal.ValidatableResponseImpl.contentType(ValidatableResponseImpl.groovy)\n\tat com.template.project.customer.request.CustomerRequests.createCustomer(CustomerRequests.java:41)\n\tat com.template.project.stepDefinitions.CustomerStepDefinition.user_calls_createcustomer_with_something_and_something(CustomerStepDefinition.java:26)\n\tat ✽.User calls createCustomer with \"firstName\" and \"lastName\"(file:///home/runner/work/restassured-gherkin-bdd-allure/restassured-gherkin-bdd-allure/src/test/java/com/template/project/features/Customer.feature:39)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+    "statusTrace" : "java.lang.AssertionError: 1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\n\tat io.restassured.internal.ResponseSpecificationImpl.contentType(ResponseSpecificationImpl.groovy:427)\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.contentType(ValidatableResponseOptionsImpl.java:220)\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$contentType(ValidatableResponseImpl.groovy)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\n\tat io.restassured.internal.ValidatableResponseImpl.contentType(ValidatableResponseImpl.groovy:278)\n\tat io.restassured.internal.ValidatableResponseImpl.contentType(ValidatableResponseImpl.groovy)\n\tat com.template.project.customer.request.CustomerRequests.createCustomer(CustomerRequests.java:41)\n\tat com.template.project.stepDefinitions.CustomerStepDefinition.user_calls_createcustomer_with_something_and_something(CustomerStepDefinition.java:26)\n\tat ✽.User calls createCustomer with \"firstName\" and \"lastName\"(file:///home/runner/work/restassured-gherkin-bdd-allure/restassured-gherkin-bdd-allure/src/test/java/com/template/project/features/Customer.feature:39)\n",
+    "steps" : [ {
+      "name" : "Given  User calls createCustomer with \"firstName\" and \"lastName\"",
+      "time" : {
+        "start" : 1701685170072,
+        "stop" : 1701685170441,
+        "duration" : 369
+      },
+      "status" : "failed",
+      "statusMessage" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+      "statusTrace" : "java.lang.AssertionError: 1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\n\tat io.restassured.internal.ResponseSpecificationImpl.contentType(ResponseSpecificationImpl.groovy:427)\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.contentType(ValidatableResponseOptionsImpl.java:220)\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$contentType(ValidatableResponseImpl.groovy)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\n\tat io.restassured.internal.ValidatableResponseImpl.contentType(ValidatableResponseImpl.groovy:278)\n\tat io.restassured.internal.ValidatableResponseImpl.contentType(ValidatableResponseImpl.groovy)\n\tat com.template.project.customer.request.CustomerRequests.createCustomer(CustomerRequests.java:41)\n\tat com.template.project.stepDefinitions.CustomerStepDefinition.user_calls_createcustomer_with_something_and_something(CustomerStepDefinition.java:26)\n\tat ✽.User calls createCustomer with \"firstName\" and \"lastName\"(file:///home/runner/work/restassured-gherkin-bdd-allure/restassured-gherkin-bdd-allure/src/test/java/com/template/project/features/Customer.feature:39)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When  User calls deleteCustomerDetails",
+      "time" : {
+        "start" : 1701685170442,
+        "stop" : 1701685170443,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the API response is \"success\" with status code \"200\"",
+      "time" : {
+        "start" : 1701685170443,
+        "stop" : 1701685170443,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  User calls getCustomerDetails",
+      "time" : {
+        "start" : 1701685170444,
+        "stop" : 1701685170444,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the API response is \"failure\" with status code \"404\"",
+      "time" : {
+        "start" : 1701685170444,
+        "stop" : 1701685170445,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Customer"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "Deletion"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1205-785"
+  }, {
+    "name" : "thread",
+    "value" : "2311@fv-az1205-785.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Validating Customer APIs"
+  }, {
+    "name" : "story",
+    "value" : "Delete Customer data"
+  }, {
+    "name" : "suite",
+    "value" : "Validating Customer APIs"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete Customer data"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/restassured-gherkin-bdd-allure/restassured-gherkin-bdd-allure/src/test/java/com/template/project/features/Customer.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.com.template.project.features.Customer_feature.Validating Customer APIs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 32,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 133,
+        "unknown" : 0,
+        "total" : 171
+      },
+      "items" : [ {
+        "uid" : "96ccc2aef539e0b5",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/166//#testresult/96ccc2aef539e0b5",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1701253126452,
+          "stop" : 1701253126818,
+          "duration" : 366
+        }
+      }, {
+        "uid" : "7d518c90f44de569",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/165//#testresult/7d518c90f44de569",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1701080339327,
+          "stop" : 1701080339635,
+          "duration" : 308
+        }
+      }, {
+        "uid" : "3500a128d11520b7",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/164//#testresult/3500a128d11520b7",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1700648387675,
+          "stop" : 1700648388117,
+          "duration" : 442
+        }
+      }, {
+        "uid" : "cac343f82e8c6ff1",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/163//#testresult/cac343f82e8c6ff1",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1700475554603,
+          "stop" : 1700475554914,
+          "duration" : 311
+        }
+      }, {
+        "uid" : "6c18053de8a2c8db",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/162//#testresult/6c18053de8a2c8db",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1700043561723,
+          "stop" : 1700043562230,
+          "duration" : 507
+        }
+      }, {
+        "uid" : "ca6eef56004b8b11",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/161//#testresult/ca6eef56004b8b11",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1699870705415,
+          "stop" : 1699870705723,
+          "duration" : 308
+        }
+      }, {
+        "uid" : "cbdef25e33393282",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/160//#testresult/cbdef25e33393282",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1699438662350,
+          "stop" : 1699438662683,
+          "duration" : 333
+        }
+      }, {
+        "uid" : "51a12efa5625b975",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/159//#testresult/51a12efa5625b975",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1699265949356,
+          "stop" : 1699265949662,
+          "duration" : 306
+        }
+      }, {
+        "uid" : "e612bfd02eeb379e",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/158//#testresult/e612bfd02eeb379e",
+        "status" : "broken",
+        "statusDetails" : "Connection refused",
+        "time" : {
+          "start" : 1698833842915,
+          "stop" : 1698833843099,
+          "duration" : 184
+        }
+      }, {
+        "uid" : "2ebdd1baa5ba62ec",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/157//#testresult/2ebdd1baa5ba62ec",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1698661092575,
+          "stop" : 1698661092976,
+          "duration" : 401
+        }
+      }, {
+        "uid" : "3fe081b33f115240",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/156//#testresult/3fe081b33f115240",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1698229071282,
+          "stop" : 1698229071774,
+          "duration" : 492
+        }
+      }, {
+        "uid" : "9c9a1b20ee499489",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/155//#testresult/9c9a1b20ee499489",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1698056275675,
+          "stop" : 1698056276004,
+          "duration" : 329
+        }
+      }, {
+        "uid" : "de8c37e166e002f6",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/154//#testresult/de8c37e166e002f6",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1697624273983,
+          "stop" : 1697624274380,
+          "duration" : 397
+        }
+      }, {
+        "uid" : "49c18a970e4d59b0",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/153//#testresult/49c18a970e4d59b0",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1697451522602,
+          "stop" : 1697451522976,
+          "duration" : 374
+        }
+      }, {
+        "uid" : "2f2460974cf657c3",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/152//#testresult/2f2460974cf657c3",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1697019521833,
+          "stop" : 1697019522206,
+          "duration" : 373
+        }
+      }, {
+        "uid" : "815da5ea533089c7",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/151//#testresult/815da5ea533089c7",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1696846768679,
+          "stop" : 1696846769046,
+          "duration" : 367
+        }
+      }, {
+        "uid" : "a22ce6afa72fec3d",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/150//#testresult/a22ce6afa72fec3d",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1696414693216,
+          "stop" : 1696414693723,
+          "duration" : 507
+        }
+      }, {
+        "uid" : "a145fa56865c4f2e",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/149//#testresult/a145fa56865c4f2e",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1696241877214,
+          "stop" : 1696241877532,
+          "duration" : 318
+        }
+      }, {
+        "uid" : "1e68231895f75d06",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/148//#testresult/1e68231895f75d06",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1695809875632,
+          "stop" : 1695809876021,
+          "duration" : 389
+        }
+      }, {
+        "uid" : "5416e332f100b779",
+        "reportUrl" : "https://rajaspar.github.io/restassured-gherkin-bdd-allure/147//#testresult/5416e332f100b779",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1695637084734,
+          "stop" : 1695637085140,
+          "duration" : 406
+        }
+      } ]
+    },
+    "tags" : [ "Customer", "Deletion" ]
+  },
+  "source" : "49987fad67307ff4.json",
+  "parameterValues" : [ ]
+}
