@@ -6,39 +6,39 @@
       "name" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
       "children" : [ {
         "name" : "Verify Customer data retrieval",
-        "uid" : "17dcfbf5a55cd20d",
+        "uid" : "89afcf11dbb4d9c",
         "parentUid" : "84d369864348f0b244008492a7d33ff8",
         "status" : "failed",
         "time" : {
-          "start" : 1704104305655,
-          "stop" : 1704104307964,
-          "duration" : 2309
+          "start" : 1707128338089,
+          "stop" : 1707128341076,
+          "duration" : 2987
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "first name", "second name" ]
       }, {
         "name" : "Verify Customer data modification",
-        "uid" : "1c2cff54424ebe95",
+        "uid" : "8829e0c774997c",
         "parentUid" : "84d369864348f0b244008492a7d33ff8",
         "status" : "failed",
         "time" : {
-          "start" : 1704104308016,
-          "stop" : 1704104308471,
-          "duration" : 455
+          "start" : 1707128341134,
+          "stop" : 1707128341441,
+          "duration" : 307
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Delete Customer data",
-        "uid" : "a0242491ed4cf573",
+        "uid" : "c9a30dbc59fd30bf",
         "parentUid" : "84d369864348f0b244008492a7d33ff8",
         "status" : "failed",
         "time" : {
-          "start" : 1704104308486,
-          "stop" : 1704104308923,
-          "duration" : 437
+          "start" : 1707128341454,
+          "stop" : 1707128341754,
+          "duration" : 300
         },
         "flaky" : false,
         "newFailed" : false,
