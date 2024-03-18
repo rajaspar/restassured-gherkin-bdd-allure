@@ -1,0 +1,52 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+      "children" : [ {
+        "name" : "Verify Customer data retrieval",
+        "uid" : "25ff93ec00a963b9",
+        "parentUid" : "84d369864348f0b244008492a7d33ff8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710757085056,
+          "stop" : 1710757087370,
+          "duration" : 2314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "first name", "second name" ]
+      }, {
+        "name" : "Verify Customer data modification",
+        "uid" : "53ff49cdcda29be6",
+        "parentUid" : "84d369864348f0b244008492a7d33ff8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710757087435,
+          "stop" : 1710757087886,
+          "duration" : 451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete Customer data",
+        "uid" : "1766caa63f5b3ff8",
+        "parentUid" : "84d369864348f0b244008492a7d33ff8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710757087898,
+          "stop" : 1710757088338,
+          "duration" : 440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "84d369864348f0b244008492a7d33ff8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
